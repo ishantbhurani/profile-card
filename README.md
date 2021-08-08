@@ -5,4 +5,5 @@
 ## Credits
 
 **design:** [UIDesignDaily](https://www.uidesigndaily.com/posts/figma-profile-card-ui-ux-day-1414)
+
 **image:** Photo by [Katie E](https://www.pexels.com/@katie?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/woman-in-white-and-black-striped-shirt-wearing-black-sunglasses-3671083/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
