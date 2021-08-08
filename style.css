@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #1e1e2e;
+  --color-card-bg: #303044;
+  --color-user-image-border: #1e1e2e;
+  --color-btn-fill: #8b5cfb;
+  --color-btn-text: hsl(258, 95%, 85%);
+  --color-btn-border: hsl(258, 95%, 75%);
+  --color-black: #0f0f0f;
+  --color-white: #fff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg);
+}
+
+.container {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  background-color: var(--color-card-bg);
+  border-radius: 0.875em;
+  box-shadow: 0 1.2em 1em -1em var(--color-black);
+  padding: 2em;
+  padding-right: 5em;
+}
+
+.card-1 {
+  flex-direction: row;
+  gap: 1em;
+}
+
+.card-2 {
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5em;
+  text-align: center;
+}
+
+.user-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border: 0.4em solid var(--color-user-image-border);
+  border-radius: 50%;
+}
+
+.user-info {
+  color: var(--color-white);
+  margin-bottom: 1.5em;
+}
+
+.user {
+  margin-top: 1.5em;
+}
+
+.user-name {
+  font-size: 1rem;
+}
+
+.user-description {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-white);
+  margin-bottom: 2em;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.likes,
+.views {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2em;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5em;
+  margin-top: 0.5em;
+}
+
+.btn {
+  padding: 0.875em 2.5em;
+  border-radius: 5em;
+  border: transparent;
+  font-weight: bold;
+  outline: transparent;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 0 1em -0.5em var(--color-white);
+}
+
+.btn-filled {
+  background-color: var(--color-btn-fill);
+  color: var(--color-white);
+}
+
+.btn-outlined {
+  border: 1px solid var(--color-btn-border);
+  background: none;
+  color: var(--color-btn-text);
+}
