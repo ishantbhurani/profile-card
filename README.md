@@ -15,6 +15,10 @@
 
 **Client:** HTML, CSS
 
+## Font Reference
+
+- [Roboto](https://fonts.google.com/specimen/Roboto)
+
 ## Color Reference
 
 | Color                   | Hex                                                              |
